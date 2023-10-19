@@ -7,6 +7,10 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "reactapp", "reactapp\reacta
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapi", "webapi\webapi.csproj", "{572D5407-8695-4676-9568-AF534E4E104A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapi.Models", "..\webapi.Models\webapi.Models.csproj", "{147487F5-A50A-4290-8286-ABEDEB1D6FCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAIClient", "..\OpenAIClient\OpenAIClient.csproj", "{CAD471E6-0D8B-4EFB-B175-2DAA985CF9A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{572D5407-8695-4676-9568-AF534E4E104A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{572D5407-8695-4676-9568-AF534E4E104A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{572D5407-8695-4676-9568-AF534E4E104A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{147487F5-A50A-4290-8286-ABEDEB1D6FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{147487F5-A50A-4290-8286-ABEDEB1D6FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{147487F5-A50A-4290-8286-ABEDEB1D6FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{147487F5-A50A-4290-8286-ABEDEB1D6FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD471E6-0D8B-4EFB-B175-2DAA985CF9A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD471E6-0D8B-4EFB-B175-2DAA985CF9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD471E6-0D8B-4EFB-B175-2DAA985CF9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD471E6-0D8B-4EFB-B175-2DAA985CF9A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
