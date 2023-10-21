@@ -364,3 +364,4 @@ FodyWeavers.xsd
 
 # Misc
 **/client/src/app/generated/
+OpenAIProject/webapi/appsettings.Development.json
